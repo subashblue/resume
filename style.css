@@ -1,86 +1,166 @@
-.profile{
-    padding: 0%;
-    margin: auto;
-    font-family: sans-serif;
-
+.profile {
+  padding: 0%;
+  margin: auto;
+  font-family: sans-serif;
 }
-img{
-    height: 300px;
-    width: 400px;
+.profile img {
+  height: 300px;
+  width: 400px;
 }
-.dropdown1  {
-    position: absolute;
-    display: inline-block;
-    top: 5%;
-    right: 20%;
-    
-    
+.dropdown1 {
+  position: absolute;
+  display: inline-block;
+  top: 5%;
+  right: 20%;
 }
-  
-.dropdown-content1  {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 16px;
+  z-index: 1;
 }
-  
 .dropdown1:hover .dropdown-content1 {
-    display: block;
+  display: block;
 }
-.dropdown2{
-    position: absolute;
-    display: inline-block;
-    top: 5%;
-    right: 40%;
-    text-decoration: dashed;
+.dropdown2 {
+  position: absolute;
+  display: inline-block;
+  top: 5%;
+  right: 40%;
 }
-.dropdown-content2{
-    display: none;
-    position: absolute;
-    background-color: aqua;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 50px;
-    z-index: 1;
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: aqua;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  padding: 12px 50px;
+  z-index: 1;
 }
-.dropdown2:hover .dropdown-content2{
-    display: block;
+.dropdown2:hover .dropdown-content2 {
+  display: block;
 }
-.dropdown3{
-    position: absolute;
-    display: inline-block;
-    top: 5%;
-    right: 60%;
+.dropdown3 {
+  position: absolute;
+  display: inline-block;
+  top: 5%;
+  right: 60%;
 }
-.dropdown-content3{
-    position: absolute;
-    display: none;
-    background-color: blueviolet;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px opx rgba(0,0,0,0.2);
-    padding: 15px 45px;
-    z-index: 1;
+.dropdown-content3 {
+  position: absolute;
+  display: none;
+  background-color: blueviolet;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px opx rgba(0, 0, 0, 0.2);
+  padding: 15px 45px;
+  z-index: 1;
 }
-.dropdown3:hover .dropdown-content3{
-    display: block;
+.dropdown3:hover .dropdown-content3 {
+  display: block;
 }
-
-.personal-id{
-    font-family: 'Times New Roman', Times, serif;
+.personal-id {
+  font-family: "Times New Roman", Times, serif;
 }
-.a{
-    font-weight: 500px;
-    font-family: sans-serif;
-    color: white;
-    background-color: black;
-    padding: 2%;
-    margin: 4%;
-    border: 2px;
-    
+.a {
+  font-weight: 500px;
+  font-family: sans-serif;
+  color: white;
+  background-color: black;
+  padding: 2%;
+  margin: 4%;
+  border: 2px;
 }
-a{
-    color: black;
+a {
+  color: black;
+}
+.linkedin-logo img{
+  height: 50px;
+  width: 100px;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+ul{
+  list-style: none;
+}
+.footer-col{
+  width: 15%;
+  padding: 0 15px;
+}
+.footer-col ul li:not(:last-child){
+  margin-bottom: 10px;
+}
+.footer-col ul li a{
+  font-size: 12px;
+  text-transform: capitalize;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 300;
+}
+.com:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.ab:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.pr:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.sal:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.saf:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.acc:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.car:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.ad:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.mob:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.tal:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.mar:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.adv:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.small:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.qus:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.man:hover a{
+  color: red;
+  text-decoration: underline;
+}
+.footer-col .form{
+  font-size: 12px;
 }
