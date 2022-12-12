@@ -7,7 +7,6 @@
   height: 300px;
   width: 400px;
   border-radius: 50%;
-  border: 10px solid black;
 }
 .dropdown1 {
   position: absolute;
@@ -103,63 +102,7 @@ ul{
   display: inline-block;
   font-weight: 300;
 }
-.com:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.ab:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.pr:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.sal:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.saf:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.acc:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.car:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.ad:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.mob:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.tal:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.mar:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.adv:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.small:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.qus:hover a{
-  color: red;
-  text-decoration: underline;
-}
-.man:hover a{
+.footer-col ul li a:hover{
   color: red;
   text-decoration: underline;
 }
