@@ -6,6 +6,8 @@
 .profile img {
   height: 300px;
   width: 400px;
+  border-radius: 50%;
+  border: 10px solid black;
 }
 .dropdown1 {
   position: absolute;
